@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    
+}
+main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-top{
+    display: flex;
+}
+.section-center{
+    display: flex;
+    
+}
+.section-bottom{
+    display: flex;
+}
+footer{
+    background-color: #030303;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+}
+#senai{
+    height: 30px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    padding: 20px;
+    
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial;
+    font-style: italic;
+}
+.cards-caixa{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+}
+.card{
+    
+    border: 1px solid #727171;
+    border-radius: 5px;
+    height: 250px;
+    width: 280px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px ;
+    
+}
+.top-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;  
+    height: 20px;
+    padding: 5px; 
+    
+}
+.top-card-texto{
+    font-size: 12px;
+    border: 1px solid #727171;
+    border-radius: 15px;
+    padding: 4px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+.curso-card{
+    
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial;
+}
+.sobre-card{
+    font-size: 12px;
+    font-family: Arial;
+}
+.horaria-card{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.btn-card{
+    background-color: #ff0000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 160px;
+}
+.btn-mais{
+    background-color: #fcfcfc;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    border-radius: 15px;
+    padding: 4px;
+    
+    
+}
+.btn-inscrever{
+    border: none;
+    background-color: #ff0000;
+    color: #fcfcfc;
+    border-radius: 15px;
+    padding: 4px;
+    
+}
+.carga-horaria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bi{
+    color: black;
+    padding: 2px;
+}
